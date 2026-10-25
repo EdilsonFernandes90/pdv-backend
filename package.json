@@ -1,0 +1,21 @@
+{
+  "name": "pdv-backend-persistente",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API protegida do PDV com PostgreSQL persistente",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20 <25"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1"
+  }
+}
